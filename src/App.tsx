@@ -3,7 +3,7 @@ function App() {
 
   return (
     <div>
-      ola mundo
+      hello word
     </div>
   )
 }
