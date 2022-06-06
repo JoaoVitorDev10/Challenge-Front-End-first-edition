@@ -1,10 +1,15 @@
+import { NavBar } from './components/NavBar'
+import GlobalStyle from "./styles/global"; // Arquivo que criamos
 
 function App() {
 
   return (
-    <div>
-      hello word
-    </div>
+    <>
+      <GlobalStyle />
+
+      <NavBar />
+
+    </>
   )
 }
 
