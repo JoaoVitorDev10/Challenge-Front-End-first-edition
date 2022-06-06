@@ -2,10 +2,11 @@ import { Container, Right, Center, Left } from "./styles";
 
 import Logo from "../../assets/logo.svg";
 import Avatar from "../../assets/photo.png";
-export function NavBar() {
+export function Header() {
 
   return (
     <Container>
+
       <Left>
         <img src={Logo} alt="" />
       </Left>

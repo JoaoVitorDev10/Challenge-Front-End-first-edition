@@ -1,4 +1,4 @@
-import { NavBar } from './components/NavBar'
+import { Header } from './components/Heder'
 import GlobalStyle from "./styles/global"; // Arquivo que criamos
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <>
       <GlobalStyle />
 
-      <NavBar />
+      <Header />
 
     </>
   )
